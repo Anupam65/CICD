@@ -1,0 +1,152 @@
+body{
+  background-color: #f3f4f6;
+}
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #f3f4f6;
+  padding: 16px;
+  display: flex;
+  height: 100vh;      
+  overflow: hidden;
+  position: fixed;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #111827;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  color: black;
+  padding-top: 60px;
+  position: relative;
+  left: -50%;
+  top: 10%;
+}
+
+
+.sidebar-menu li {
+  font-weight: 500;
+  cursor: pointer;
+  color: #0b0b0b;
+  transition: color 0.2s ease;
+  padding-bottom: 50px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  left: 130%;
+}
+
+.post-creator {
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.post-input-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.post-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.post-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.post-button {
+  padding: 8px 16px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.post-card {
+  border-radius: 12px;
+  overflow: hidden;
+
+}
+
+.post-content {
+  padding: 16px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.username {
+  font-weight: 600;
+  color: #111827;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.post-text {
+  margin-bottom: 8px;
+  color: black;
+}
+
+.post-image {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+  max-height: 75vh;
+  object-fit: fill;
+
+  margin-bottom: 8px;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #e7e9ec;
+  cursor: pointer;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: #000;
+  padding-left: 10px;
+
+}
+.ic{
+  color: #000;
+
+}
