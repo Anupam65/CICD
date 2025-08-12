@@ -1,16 +1,16 @@
-import { BrowserRouter, Routes ,Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './home';
 import Post from './post';
 
-const App = () =>{
-  return(
+const App = () => {
+  return (
     <BrowserRouter>
-  <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/post" element={<Post />} />
-  </Routes>
-</BrowserRouter>
+      <Routes>
+        <Route path="/CICD" element={<Home />} />
+        <Route path="/post" element={<Post />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
-export default  App;
+export default App;
